@@ -107,7 +107,7 @@ BOARD_USES_METADATA_PARTITION := true
 # Partitions
 ifneq ($(TARGET_RO_FILE_SYSTEM_TYPE),erofs)
 ifneq ($(WITH_GMS),true)
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/frosty/config/BoardConfigReservedSize.mk
 endif
 endif
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
